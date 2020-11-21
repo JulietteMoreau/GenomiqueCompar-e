@@ -79,12 +79,7 @@ nb_core_genome = 0
 correspondance = pd.DataFrame.from_dict(correspondance, orient = 'index')
 
 correspondance = correspondance.reset_index()
-
-len(dict_final[bact])
-    
-
-    
-    
+        
 # Parcours les gènes du génome de la 1ère bactérie
 for j in dict_final[bact].keys():
     
