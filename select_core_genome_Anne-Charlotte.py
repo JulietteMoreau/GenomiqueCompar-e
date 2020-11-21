@@ -121,11 +121,7 @@ for j in dict_final[bact].keys():
             nb_core_genome += 1
                     
             
-            
-compteur = 0   
-for j in dict_final[bact].keys():
-    if len(dict_final[bact][j]) == nb_bact:
-        compteur += 1
+
 
 
 
